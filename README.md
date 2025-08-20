@@ -36,4 +36,4 @@ This version goes beyond the classic 3x3 grid further supporting 2x2 to 5x5 boar
 
 🌐 Live Demo
 
-🔗 Play Now on GitHub Pages : 
+🔗 Play Now on GitHub Pages : https://ap-singh-04.github.io/SCT_WD_3/
