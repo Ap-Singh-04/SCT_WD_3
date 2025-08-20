@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="Aptictoe.css" />
+  <title>Tic Tac Toe - Cyber</title>
+</head>
+<body>
+  <div class="game-wrapper">
+    <div class="top-bar">
+      <table id="scoreboard">
+        <tr>
+          <td>Player X</td>
+          <td class="gap"> </td>
+          <td>Player O</td>
+        </tr>
+        <tr>
+          <td class="score" id="player1">0</td>
+          <td></td>
+          <td class="score" id="player2">0</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="placeholder"></div>
+
+    <div class="controls">
+      <button onclick="restart()">Reset</button>
+    </div>
+  </div>
+  
+  <div id="placeholder1"></div>
+  <select onchange="changeGridSize(this.value)">
+    <option value="2">2 X 2</option>
+    <option value="3" selected="">3 X 3</option>
+    <option value="4">4 X 4</option>
+    <option value="5">5 X 5</option>
+  </select>
+
+  <!-- Win popup frame -->
+  <div id="win-popup">
+    <div id="win-popup-content"></div>
+  </div>
+
+  <script src="Aptictoe.js"></script>
+</body>
+</html>
